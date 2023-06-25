@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944530190914",
+    "project_id": "cra-app-381007",
+    "storage_bucket": "cra-app-381007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944530190914:android:4645c50f4aec188dd3f3db",
+        "android_client_info": {
+          "package_name": "com.mediabox.cra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944530190914-4jgnsrbmqmhgsdq1ggqdi9nibt4vqq3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy0w7NL8KEdJ176qNYPimzn64DQy8axig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944530190914-4jgnsrbmqmhgsdq1ggqdi9nibt4vqq3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

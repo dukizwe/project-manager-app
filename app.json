@@ -1,0 +1,43 @@
+{
+          "expo": {
+                    "jsEngine": "hermes",
+                    "name": "Mediabox",
+                    "slug": "mbx-app",
+                    "version": "1.0.0",
+                    "icon": "./assets/logo.png",
+                    "userInterfaceStyle": "light",
+                    "splash": {
+                              "image": "./assets/mbx_splash.png",
+                              "resizeMode": "contain",
+                              "backgroundColor": "#393A3C"
+                    },
+                    "updates": {
+                              "fallbackToCacheTimeout": 0
+                    },
+                    "assetBundlePatterns": ["**/*"],
+                    "ios": {
+                              "supportsTablet": true,
+                              "bundleIdentifier": "com.mediabox.mbx"
+                    },
+                    "android": {
+                              "googleServicesFile": "./google-services.json",
+                              "adaptiveIcon": {
+                                        "foregroundImage": "./assets/mbx_logo.png",
+                                        "backgroundColor": "#FFFFFF"
+                              },
+                              "package": "com.mediabox.mbx"
+                    },
+                    "web": {
+                              "favicon": "./assets/favicon.png"
+                    },
+                    "notification": {
+                      "icon": "./assets/logo.png",
+                      "color": "#dddddd",
+                      "androidMode": "default",
+                      "androidCollapsedTitle": "Mbx",
+                      "iosDisplayInForeground": true
+                    },
+                    "scheme": "mbx",
+                    "description": "Une application pour remplir le compte rendu d'activite de mediabox"
+          }
+}
