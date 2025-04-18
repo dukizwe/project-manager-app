@@ -106,7 +106,7 @@ export default function TachesScreen() {
                                          :<ScrollView style={{ paddingHorizontal: 10 }}>
                                                   {taches.map((tache, index) => {
                                                             return (
-                                                                      <Tache tache={tache} setShowProgress={setShowProgress} modalRef={modalRef} isMesTaches />
+                                                                      <Tache tache={tache} setShowProgress={setShowProgress} modalRef={modalRef} isMesTaches key={index} />
                                                             )
                                                   })}
                                         </ScrollView>}

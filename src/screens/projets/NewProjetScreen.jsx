@@ -22,7 +22,7 @@ export default function NewProjetScreen() {
           const [showCalendar, setShowCalendar] = useState(false)
           const [data, handleChange, setValue] = useForm({
                     nom: editProjet ? editProjet.NOM_PROJET : "",
-                    dateFin: editProjet ? editProjet.DATE_FIN : null,
+                    dateFin: editProjet ? new Date(editProjet.DATE_FIN) : null,
           })
           const { errors, setError, getErrors, setErrors, checkFieldData, isValidate, getError, hasError } = useFormErrorsHandle(data, {
                     nom: {
@@ -103,11 +103,7 @@ export default function NewProjetScreen() {
                                                             onChangeText={(newValue) => handleChange('nom', newValue)}
                                                             onBlur={() => checkFieldData('nom')}
                                                             error={hasError('nom') ? getError('nom') : ''}
-                                                            onSubmitEditing={() => {
-                                                                      prenomInputRef.current.focus()
-                                                            }}
                                                             autoCompleteType='off'
-                                                            returnKeyType="next"
                                                             blurOnSubmit={false}
                                                   />
                                                   <TouchableOpacity style={styles.selectContainer}

@@ -90,8 +90,7 @@ export default function NewTacheScreen() {
                                                   NOM_TACHE: data.nomTache,
                                                   DESCRIPTION_TACHE: data.desciptionTache,
                                                   DEBUT_TACHE: moment(data.debutTache).format('YYYY/MM/DD HH:mm:ss'),
-                                                  FIN_TACHE: moment(data.finTache).format('YYYY/MM/DD HH:mm:ss'),
-                                                  ID_STATUT_TACHE: 1
+                                                  FIN_TACHE: moment(data.finTache).format('YYYY/MM/DD HH:mm:ss')
                                         }),
                                         headers: { "Content-Type": "application/json" },
                               })
